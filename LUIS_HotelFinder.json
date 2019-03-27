@@ -1,0 +1,136 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "Hotel Finder",
+  "desc": "Determine if user is inquiring or booking a room",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Hotel Booking"
+    },
+    {
+      "name": "Hotel Enquiry"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "barking dogs are annoying",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "does mariott accept american express for booking room?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "does mariott accept usd?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "does park place provide cab facility for pick/drop from airport?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "order a pizza for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wasaga beach is beautiful",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the check out time for mariott?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "what is the cost of presidential suite for 1 night?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "what is the price of 1 room in mariott?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "what is the price to book lounge for birthday celebration?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "what is the price to book meeting room for one day?",
+      "intent": "Hotel Booking",
+      "entities": []
+    },
+    {
+      "text": "which hotel has free breakfast?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel has free parking?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel has free wifi?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel has gym?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel has smoking area?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel has swimming pool?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotel is near airport?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotels have more than 4 rating?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which hotels have pets allowed?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    },
+    {
+      "text": "which is the best hotel in toronto?",
+      "intent": "Hotel Enquiry",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
